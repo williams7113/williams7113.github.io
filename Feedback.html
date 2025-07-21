@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Sleep Study Survey</title>
+</head>
+<body>
+ <a href="index.html"><b>Home</b></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="Solutions.html"><b>Solutions</b></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="Feedback.html"><b>Feedback</b></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="about.html"><b>About</b></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h1>Sleep Study Survey</h1>
+
+    <form style="background-color: lightblue; padding: 20px; width: 400px;">
+        <!-- First Name -->
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" style="background-color: white;"><br><br>
+
+        <!-- Last Name -->
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" style="background-color: white;"><br><br>
+
+        <!-- Favorite Sleeping Position -->
+        <label for="sleep-position">Favorite Sleeping Position:</label><br>
+        <select id="sleep-position" name="sleep-position" style="background-color: white;">
+            <option value="back">Back</option>
+            <option value="side">Side</option>
+            <option value="stomach">Stomach</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Sleep Hours -->
+        <p>How many hours of sleep do you get each night?</p>
+        <input type="radio" id="less-than-4" name="sleep-hours" value="Less than 4 hours">
+        <label for="less-than-4">Less than 4 hours</label><br>
+
+        <input type="radio" id="4-6" name="sleep-hours" value="4–6 hours">
+        <label for="4-6">4–6 hours</label><br>
+
+        <input type="radio" id="6-8" name="sleep-hours" value="6–8 hours">
+        <label for="6-8">6–8 hours</label><br>
+
+        <input type="radio" id="8-plus" name="sleep-hours" value="More than 8 hours">
+        <label for="8-plus">More than 8 hours</label><br><br>
+
+        <!-- Additional Comments -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40" style="background-color: white;"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+	
+</body>
+</html>
